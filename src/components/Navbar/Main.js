@@ -13,10 +13,8 @@ const Navbar = ({ pages }) => {
     const [button, setButton] = useState(true);
 
     const handleClick = () => setClick((click) => !click);
-    const closeMobileMenu = () => {
-        console.log('clicked');
-        setClick(false);
-    }
+    const closeMobileMenu = () => setClick(false);
+
     const showButton = () => {
         if (window.innerWidth <= 960) {
             setButton(false);
@@ -48,7 +46,10 @@ const Navbar = ({ pages }) => {
                                     handleClick={closeMobileMenu}
                                 />
                             ))}
-                            <SignBtn button={button} handleClick={closeMobileMenu}/>
+                            <SignBtn
+                                button={button}
+                                handleClick={closeMobileMenu}
+                            />
                         </ul>
                     </div>
                 </div>

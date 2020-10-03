@@ -1,9 +1,9 @@
-const Home = () => 'Home';
+import HomePage from "../../pages/HomePage/Main";
 
 const pages = [
-    { path: '/', title: 'Home', component: Home },
+    { path: '/', title: 'Home', component: HomePage },
     { path: '/services', title: 'Services' },
-    { path: '/products', title: 'Products', component: Home }
+    { path: '/products', title: 'Products' }
 ];
 
 export default pages;
