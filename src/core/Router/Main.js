@@ -1,24 +1,28 @@
-import React, { useMemo } from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import Navbar from '../../components/Navbar/Main';
+import React, { useMemo } from "react";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import Navbar from "../../components/Navbar/Main";
+import Footer from "../../components/Footer/Main";
 
-import pages from '../paths/index';
+import pages from "../paths/index";
 
 const Main = ({ Navbar, pages }) => {
-    const thisPages = useMemo(() => pages || [], [ pages ]);
+    const thisPages = useMemo(() => pages || [], [pages]);
     return (
         <Router>
-            <Navbar pages={thisPages}/>
+            <Navbar pages={thisPages} />
             <Switch>
-                {thisPages.map((page, index) => <Route key={index} exact {...page} />)}
+                {thisPages.map((page, index) => (
+                    <Route key={index} exact {...page} />
+                ))}
             </Switch>
+            <Footer />
         </Router>
     );
-}
+};
 
 Main.defaultProps = {
     Navbar,
-    pages
-}
+    pages,
+};
 
 export default React.memo(Main);

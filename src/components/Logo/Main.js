@@ -2,13 +2,18 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { MdFingerprint } from "react-icons/md";
 
-const NavLogo = ({ handleClick }) => {
+const Logo = ({ className, handleClick }) => {
     return (
-        <Link to="/" className="navbar-logo" onClick={handleClick}>
+        <Link to="/" className={className} onClick={handleClick}>
             <MdFingerprint className="navbar-icon" />
             LAVISH
         </Link>
     );
 };
 
-export default NavLogo;
+Logo.defaultProps = {
+    className: "navbar-logo",
+    handleClick: null
+}
+
+export default Logo;

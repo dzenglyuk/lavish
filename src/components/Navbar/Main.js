@@ -3,7 +3,7 @@ import { IconContext } from "react-icons/lib";
 
 import NavItem from "./partials/NavItem";
 import MenuIcon from "./partials/MenuIcon";
-import NavLogo from "./partials/NavLogo";
+import Logo from "../Logo/Main";
 import SignBtn from "./partials/SignBtn";
 
 import "./Main.css";
@@ -34,7 +34,8 @@ const Navbar = ({ pages }) => {
             <IconContext.Provider value={{ color: "#fff" }}>
                 <div className="navbar">
                     <div className="navbar-container container">
-                        <NavLogo handleClick={closeMobileMenu} />
+                        {/* <NavLogo handleClick={closeMobileMenu} /> */}
+                        <Logo className="navbar-logo" handleClick={closeMobileMenu} />
                         <MenuIcon clicked={clicked} handleClick={handleClick} />
                         <ul
                             className={clicked ? "nav-menu active" : "nav-menu"}
