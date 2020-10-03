@@ -2,7 +2,7 @@ import React from "react";
 import "./Main.css";
 
 const STYLES = ["btn--primary", "btn--outline"];
-const SIZES = ["btn--medium", "btn--large", "btn--modile"];
+const SIZES = ["btn--medium", "btn--large", "btn--modile", "btn--wide"];
 const COLORS = ["primary", "blue", "red", "green"];
 
 const Button = ({ children, type, onClick, btnStyle, btnSize, btnColor }) => {
@@ -11,6 +11,7 @@ const Button = ({ children, type, onClick, btnStyle, btnSize, btnColor }) => {
 		if (name && name === 'color') defaultProp = '';
 		return propName.includes(propValue) ? propValue : defaultProp;
     };
+    
     return (
         <button
             className={`btn 
