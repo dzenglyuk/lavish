@@ -39,7 +39,7 @@ LinkWrapper.propTypes = {
             );
 
         return null;
-    },
+    }
 };
 
 export default LinkWrapper;
