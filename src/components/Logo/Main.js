@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { MdFingerprint } from "react-icons/md";
 
-const Logo = ({ className, handleClick }) => {
+const Main = ({ className, handleClick }) => {
     return (
         <Link to="/" className={className} onClick={handleClick}>
             <MdFingerprint className="navbar-icon" />
@@ -11,9 +11,9 @@ const Logo = ({ className, handleClick }) => {
     );
 };
 
-Logo.defaultProps = {
+Main.defaultProps = {
     className: "navbar-logo",
     handleClick: null
 }
 
-export default Logo;
+export default Main;
