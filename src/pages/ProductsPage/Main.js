@@ -2,7 +2,7 @@ import React from "react";
 import HomeSection from "../../components/HomeSection/Main";
 import { homeObjTwo, homeObjThree } from "../Data"; 
 
-const Main = () => {
+const ProductsPage = () => {
     return (
         <React.Fragment>
             <HomeSection {...homeObjTwo} />
@@ -11,4 +11,4 @@ const Main = () => {
     )
 }
 
-export default Main;
+export default ProductsPage;

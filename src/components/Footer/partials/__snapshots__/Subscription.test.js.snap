@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Matches the snapshot 1`] = `
+<section
+  className="footer-subscription"
+>
+  <p
+    className="footer-subscription-heading"
+  >
+    Join our exclusive membership to receive the latest news and trends
+  </p>
+  <p
+    className="footer-subscription-text"
+  >
+    You can unsubscribe at any time.
+  </p>
+  <div
+    className="input-areas"
+  >
+    <form>
+      <input
+        className="footer-input"
+        name="email"
+        placeholder="Your Email"
+        type="email"
+      />
+      <button
+        className="btn 
+			btn--outline
+			btn--medium
+			"
+      >
+        Subscribe
+      </button>
+    </form>
+  </div>
+</section>
+`;

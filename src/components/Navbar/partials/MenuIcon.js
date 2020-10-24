@@ -3,8 +3,8 @@ import { FaBars, FaTimes } from "react-icons/fa";
 
 const MenuIcon = ({ clicked, handleClick }) => {
     return (
-        <div className="menu-icon" onClick={handleClick}>
-            {clicked ? <FaTimes /> : <FaBars />}
+        <div className="menu-icon" onClick={handleClick} data-testid="menu-icon">
+            {clicked ? <FaTimes data-testid="times-icon"/> : <FaBars data-testid="bars-icon"/>}
         </div>
     );
 };

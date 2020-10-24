@@ -6,7 +6,7 @@ import { infoLinks, socialLinks } from "./Data";
 
 import "./Main.css";
 
-const Main = () => { 
+const Footer = () => { 
     return (
         <div className="footer-container">
             <Subscription />
@@ -19,4 +19,4 @@ const Main = () => {
     );
 };
 
-export default Main;
+export default Footer;

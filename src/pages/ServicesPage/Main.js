@@ -3,7 +3,7 @@ import HomeSection from "../../components/HomeSection/Main";
 import PricingSection from "../../components/PricingSection/Main";
 import { homeObjFour } from "../Data"; 
 
-const Main = () => {
+const ServicesPage = () => {
     return (
         <React.Fragment>
             <PricingSection />
@@ -12,4 +12,4 @@ const Main = () => {
     )
 }
 
-export default Main;
+export default ServicesPage;

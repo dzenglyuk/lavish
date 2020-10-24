@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Matches the snapshot 1 1`] = `
+<li
+  className="nav-btn"
+  onClick={null}
+>
+  <a
+    className="btn-link"
+    data-testid="sign-btn"
+    href="/sign-up"
+    onClick={[Function]}
+  >
+    <button
+      className="btn 
+			btn--outline
+			btn--mobile
+			"
+    >
+      SIGN UP
+    </button>
+  </a>
+</li>
+`;
+
+exports[`Matches the snapshot 2 1`] = `
+<li
+  className="nav-btn"
+  onClick={null}
+>
+  <a
+    className="btn-link"
+    data-testid="sign-btn"
+    href="/sign-up"
+    onClick={[Function]}
+  >
+    <button
+      className="btn 
+			btn--outline
+			btn--medium
+			"
+    >
+      SIGN UP
+    </button>
+  </a>
+</li>
+`;
