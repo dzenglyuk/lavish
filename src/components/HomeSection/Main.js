@@ -3,7 +3,7 @@ import Button from "../Button/Main";
 import { Link } from "react-router-dom";
 import "./Main.css";
 
-const Main = ({
+const HomeSection = ({
     lightBg,
     topLine,
     lightText,
@@ -47,4 +47,4 @@ const Main = ({
     );
 };
 
-export default Main;
+export default HomeSection;

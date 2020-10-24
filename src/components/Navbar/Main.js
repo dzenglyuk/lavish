@@ -5,6 +5,7 @@ import NavItem from "./partials/NavItem";
 import MenuIcon from "./partials/MenuIcon";
 import Logo from "../Logo/Main";
 import SignBtn from "./partials/SignBtn";
+import pages from "../../core/paths/index";
 
 import "./Main.css";
 
@@ -24,7 +25,7 @@ const Navbar = ({ pages }) => {
     };
 
     useEffect(() => {
-        showButton(false);
+        showButton();
     }, []);
 
     window.addEventListener("resize", showButton);
@@ -34,7 +35,6 @@ const Navbar = ({ pages }) => {
             <IconContext.Provider value={{ color: "#fff" }}>
                 <div className="navbar">
                     <div className="navbar-container container">
-                        {/* <NavLogo handleClick={closeMobileMenu} /> */}
                         <Logo className="navbar-logo" handleClick={closeMobileMenu} />
                         <MenuIcon clicked={clicked} handleClick={handleClick} />
                         <ul
@@ -57,6 +57,10 @@ const Navbar = ({ pages }) => {
             </IconContext.Provider>
         </React.Fragment>
     );
+};
+
+Navbar.defaultProps = {
+    pages: pages
 };
 
 export default React.memo(Navbar);

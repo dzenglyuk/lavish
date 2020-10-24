@@ -8,7 +8,7 @@ import { starterAccount, goldAccount, diamondAccount } from "./Data";
 
 import "./Main.css";
 
-const Main = () => {
+const PricingSection = () => {
     const title = "Pricing";
     return (
         <IconContext.Provider value={{ color: "#fff", size: 64 }}>
@@ -35,4 +35,4 @@ const Main = () => {
     );
 };
 
-export default Main;
+export default PricingSection;

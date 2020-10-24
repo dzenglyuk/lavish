@@ -1,0 +1,145 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Matches the snapshot 1 1`] = `
+<div
+  className="footer-link-wrapper"
+>
+  <div
+    className="footer-link-items"
+  >
+    <h2>
+      About Us
+    </h2>
+    <a
+      href="/sign-up"
+      onClick={[Function]}
+    >
+      How it works
+    </a>
+    <a
+      href="/"
+      onClick={[Function]}
+    >
+      Testimonials
+    </a>
+    <a
+      href="/"
+      onClick={[Function]}
+    >
+      Careers
+    </a>
+    <a
+      href="/"
+      onClick={[Function]}
+    >
+      Investors
+    </a>
+    <a
+      href="/"
+      onClick={[Function]}
+    >
+      Terms of Service
+    </a>
+  </div>
+  <div
+    className="footer-link-items"
+  >
+    <h2>
+      Contact Us
+    </h2>
+    <a
+      href="/"
+      onClick={[Function]}
+    >
+      Contact
+    </a>
+    <a
+      href="/"
+      onClick={[Function]}
+    >
+      Support
+    </a>
+    <a
+      href="/"
+      onClick={[Function]}
+    >
+      Destinations
+    </a>
+    <a
+      href="/"
+      onClick={[Function]}
+    >
+      Sponsorships
+    </a>
+  </div>
+</div>
+`;
+
+exports[`Matches the snapshot 2 1`] = `
+<div
+  className="footer-link-wrapper"
+>
+  <div
+    className="footer-link-items"
+  >
+    <h2>
+      Videos
+    </h2>
+    <a
+      href="/"
+      onClick={[Function]}
+    >
+      Submit Video
+    </a>
+    <a
+      href="/"
+      onClick={[Function]}
+    >
+      Ambassadors
+    </a>
+    <a
+      href="/"
+      onClick={[Function]}
+    >
+      Agency
+    </a>
+    <a
+      href="/"
+      onClick={[Function]}
+    >
+      Influencer
+    </a>
+  </div>
+  <div
+    className="footer-link-items"
+  >
+    <h2>
+      Social Media
+    </h2>
+    <a
+      href="/"
+      onClick={[Function]}
+    >
+      Instagram
+    </a>
+    <a
+      href="/"
+      onClick={[Function]}
+    >
+      Facebook
+    </a>
+    <a
+      href="/"
+      onClick={[Function]}
+    >
+      Youtube
+    </a>
+    <a
+      href="/"
+      onClick={[Function]}
+    >
+      Twitter
+    </a>
+  </div>
+</div>
+`;

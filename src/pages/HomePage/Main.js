@@ -1,9 +1,9 @@
 import React from "react";
 import HomeSection from "../../components/HomeSection/Main";
 import PricingSection from "../../components/PricingSection/Main";
-import { homeObjOne, homeObjTwo, homeObjThree, homeObjFour } from "../Data"; 
+import { homeObjOne, homeObjTwo, homeObjThree, homeObjFour } from "../Data";
 
-const Main = () => {
+const HomePage = () => {
     return (
         <React.Fragment>
             <HomeSection {...homeObjOne} />
@@ -15,4 +15,4 @@ const Main = () => {
     )
 }
 
-export default Main;
+export default HomePage;

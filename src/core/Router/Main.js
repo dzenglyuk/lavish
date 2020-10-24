@@ -5,7 +5,7 @@ import Footer from "../../components/Footer/Main";
 
 import pages from "../paths/index";
 
-const Main = ({ Navbar, pages }) => {
+const MyRouter = ({ Navbar, pages }) => {
     const thisPages = useMemo(() => pages || [], [pages]);
     return (
         <Router>
@@ -20,9 +20,9 @@ const Main = ({ Navbar, pages }) => {
     );
 };
 
-Main.defaultProps = {
+MyRouter.defaultProps = {
     Navbar,
     pages,
 };
 
-export default React.memo(Main);
+export default React.memo(MyRouter);

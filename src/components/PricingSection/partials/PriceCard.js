@@ -44,7 +44,7 @@ PriceCard.propTypes = {
 
         if (typeof propValue !== "object")
             return new Error(
-                `${propName} of component ${componentName} must be array`
+                `${propName} of component ${componentName} must be object`
             );
 
         requiredProps.map((prop) =>
